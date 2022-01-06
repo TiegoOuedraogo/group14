@@ -1,94 +1,128 @@
-header{
-  background-color: #1FAAE2;
-}
-
-h1{
-  text-align:center;
-  font-size: 40px;
-  font-family:san-serif;
-  padding: 60px 20px;
-}
-.title{
-  position:relative;
-}
-.logo{
-  display: flex;
-  margin: 0 , 20px;
-  
-}
-
-.image{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 10px 5px;
-  border-color: black;
-}
-.aside{
+header {
     background-color: #1FAAE2;
-    float:right;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: san-serif;
+    padding: 60px 20px;
+}
+
+.title {
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    margin: 0, 20px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    border-color: black;
+}
+
+.aside {
+    background-color: #1FAAE2;
+    float: right;
     font-size: 20px;
     margin: 10px;
     height: 30px;
 }
-a:hover{
-  background-color: aqua;
-}
-.intro{
-  background-color: #3333;
-  border: solid 5px red;
-  margin: 5px 0px 5px 0px;
-}
-.foo{
-  background-color: black;
-  color: white;
-  text-align: center;
-  width: 1410px;
-  height: 200px;
-  display: flex;
-  
+
+a:hover {
+    background-color: aqua;
 }
 
-.fol{
-  margin: 0 15px;
-  border-color: white;
-  float: right;
+.intro {
+    background-color: #3333;
+    border: solid 5px red;
+    margin: 5px 0px 5px 0px;
 }
-P{
-  text-align: center;
+
+.foo {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 1410px;
+    height: 200px;
+    display: flex;
 }
+
+.fol {
+    margin: 0 15px;
+    border-color: white;
+    float: right;
+}
+
+P {
+    text-align: center;
+}
+
 body {
-  background-color: azure;
-  text-align: center;
+    background-color: azure;
+    text-align: center;
 }
 
 h4,
 li {
-  text-align: left;
+    text-align: left;
 }
 
-.twogirl{
-width: 350px;
-height: 270px;
-float: left;
-margin: 10px 10px;
-
-
-}
-a :hover{
-  float: left;
-  cursor: zoom-in;
+.twogirl {
+    width: 350px;
+    height: 270px;
+    float: left;
+    margin: 10px 10px;
 }
 
-.follows{
-  position: absolute;
-  left: 50%;
+a :hover {
+    float: left;
+    cursor: zoom-in;
 }
 
-.git{
-  width: 40px;
-  height: 30px;
-  border-radius:10px;
-  margin: 10px 5px;
-  border-color: black; 
+.follows {
+    position: absolute;
+    left: 50%;
+}
+
+.git {
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    border-color: black;
+}
+
+.navi {
+    text-align: left;
+}
+
+.Row {
+    display: table;
+    width: 100%;
+    /*Optional*/
+    table-layout: fixed;
+    /*Optional*/
+    border-spacing: 10px;
+    /*Optional*/
+}
+
+.unImge {
+    width: 270px;
+    height: 170px;
+}
+
+.Column {
+    display: table-cell;
+    /* background-color: red; */
+    /*Optional*/
+}
+
+.third:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
