@@ -2,3 +2,8 @@ body {
     background-color: azure;
     text-align: center;
 }
+
+h4,
+li {
+    text-align: left;
+}
